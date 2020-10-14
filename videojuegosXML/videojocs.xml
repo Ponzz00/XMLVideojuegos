@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Videojuegos>
+
+	<Videojuego id="01">
+		<Titulo creado_en="USA">\DOOM</Titulo>
+		<Creador>Treyarch</Creador>
+		<Sinopsis>Shooter futurista</Sinopsis>
+		<Plataforma>PC</Plataforma>
+	</Videojuego>
+
+	<Videojuego id="02">
+		<Titulo creado_en="RUS">\METRO</Titulo>
+		<Creador>Activision</Creador>
+		<Sinopsis>RPG modo historia</Sinopsis>
+		<Plataforma>PS4</Plataforma>
+	</Videojuego>
+
+	<Videojuego id="03">
+		<Titulo creado_en="ESP">\Destiny_2</Titulo>
+		<Creador>Bungie</Creador>
+		<Sinopsis>Shooteer modo historia futurista</Sinopsis>
+		<Plataforma>PC</Plataforma>
+	</Videojuego>
+
+</Videojuegos>
