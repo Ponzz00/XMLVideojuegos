@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<videojocs>
+     
+    
+    <videojoc creat_en="2012">
+                
+        <titol>DOOM</titol>
+                
+        <creador>Bethesda</creador>
+                
+        <sinopsis>Shooter PostApocaliptico</sinopsis>
+                
+        <plataforma>PC</plataforma>
+            
+    </videojoc>
+        
+    <videojoc creat_en="2015">
+                
+        <titol>PES 15</titol>
+                
+        <creador>EA</creador>
+                
+        <sinopsis>Juego de Deporte</sinopsis>
+                
+        <plataforma>XBOX</plataforma>
+            
+    </videojoc>
+        
+    <videojoc creat_en="2013">
+                
+        <titol>X MEN Adventures</titol>
+                
+        <creador>Sony</creador>
+                
+        <sinopsis>Marvel Adventures </sinopsis>
+                
+        <plataforma>PS4</plataforma>
+            
+    </videojoc>
+        
+    
+    <videojoc creat_en="2020">
+                
+        <titol>Destiny_2</titol>
+                
+        <creador>Bungie</creador>
+                
+        <sinopsis>Shooteer modo historia futurista</sinopsis>
+                
+        <plataforma>PC</plataforma>
+            
+    </videojoc>
+    
+</videojocs>
