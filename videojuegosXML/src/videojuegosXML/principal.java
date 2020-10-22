@@ -13,11 +13,14 @@ public class principal {
 					Scanner sc=new Scanner(System.in);//CREAMOS EL SCANNER PARA LEER LA OPCION (TECLADO) DEL SWITCH
 					int opcion;//VARIABLE QUE NOS AYUDARA A UTILIZAR EL SCANNER EN EL SWITCH
 					do {
-					System.out.println("\n------------SIGUE-ESTOS-PASOS---------------\n"
+					System.out.println("\n------------ELIGE-UN-PROCESO--------------\n"
 							+ "  \n\t\t1.CARGAR XML "
 							+ "  \n\t\t2.RELLENAR XML "
 							+ "  \n\t\t3.MOSTRAR XML"
-							+ "  \n\t\t4.Salir\n"
+							+ "  \n\t\t4.EDITAR TITULO XML"
+							+ "  \n\t\t5.ELIMINAR TITULO XML"
+							+ "  \n\t\t6.COPIAR Y RENOMBRAR XML"
+							+ "  \n\t\t7.Salir\n"
 							+ "\n--------------------------------------------");
 					
 					
@@ -49,12 +52,37 @@ public class principal {
 							e.printStackTrace();
 						}
 						break;
+					
 					case 4:
+							
+						try {
+							
+							juego.EditarDatos();
+						} catch (IOException e) {
+							System.out.print("Ha ocurrido un error"
+									+ " al procesar el archivo");
+							e.printStackTrace();
+						}
+						
+						break;
+						
+					case 5:
+						
+						System.out.println("Datos eliminados satisfactoriamente");
+						break;
+						
+					case 6:
+						metodos.CopiarRenombrar("videojocs.xml", "modificado.xml");
+						System.out.println("Datos modificados satisfactoriamente");
+						break;
+						
+						
+					case 7:
 						System.out.println("Proceso finalizado");
 
 					}
 					
-					} while(opcion!=4);		
+					} while(opcion!=7);		
 				
 		}
 				
